@@ -17,7 +17,7 @@ hr {
 
 .header {
   margin-top: $margin_large;
-  margin-bottom: $margin;
+  margin-bottom: $margin_small;
   font-family: $font-family-1;
   font-weight: $font-weight-bold;
 }
@@ -31,12 +31,12 @@ h5,
 h6 {
   line-height: $headline-line-height;
   color: $headline-font-color;
-  font-family: $font-family-2;
   font-weight: $font-weight-bold;
   margin-top: 0;
 }
 
 h1 {
+  font-family: $font-family-2;
   font-size: $typo_ostrich;
   margin-bottom: $base-pad;
 }
@@ -46,7 +46,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: $typo_eagle;
+  font-size: $typo_crow;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 
 h3 {
   margin: $base-pad 0;
-  font-size: $typo_crow;
+  font-size: $typo_sparrow;
 }
 
 h4 {
