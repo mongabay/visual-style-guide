@@ -1,0 +1,64 @@
+###################################
+## General Settings
+
+## These settings are standard Jekyll Settings, check the Jekyll docs for help
+
+## Preprocessor settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+
+## Jekyll Serve
+port: 4000
+
+## Output
+siteurl: ## Optional
+baseurl: ## Optional
+destination: build ## Output folder
+
+###################################
+## Style Guide Shell Settings
+
+## These settings are used in when generating the style guide shell
+sg_title: Mongabay visual style guide
+sg_version: 1.0
+sg_keywords: mongabay, style guide, playbook, design, code
+sg_author: Vizzuality
+sg_description: Visual style guide for Mongabay.
+sg_language: en
+sg_styles: /src/assets/css/style.css
+sg_favicon:
+
+## Generates Style Guide Shell Styles
+## Enable to change the style guide shell stylesheet.
+sass:
+  sass_dir: src/assets/_sass
+  style: :compressed
+
+###################################
+## Collection Settings
+
+## Outputs the _docs collection !Required
+collections:
+  docs:
+    output: true
+
+## Sets the default attributes for the Documentation and Pattern Files !Required
+defaults:
+  - scope:
+      path: '_docs'
+    values:
+      layout: doc
+      type: doc
+  - scope:
+      path: '_docs/charts'
+    values:
+      layout: doc
+      type: charts
+  - scope:
+      path: '_docs/foundations'
+    values:
+      layout: doc
+      type: foundation
+

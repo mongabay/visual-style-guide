@@ -1,0 +1,33 @@
+<a href="javascript:void(0)" class="sg_sidebar_button">
+  <i class="icon" data-icon="menu"></i>
+</a>
+<div class="sg_sidebar">
+  <a href="{{ site.baseurl }}/index.html" class="logo">
+    <div class="icon"><img src="{{ site.baseurl }}/src/assets/images/logo.jpg"></div>
+    <div class="title">{{ site.sg_title }}</div>
+  </a>
+
+  <ul>
+    <li><a href="{{ site.baseurl }}/index.html"{% if page.url == '/' %} class="active"{% endif %}>Overview</a></li>
+  </ul>
+
+  {% assign foundations = site.docs | where: 'type', 'foundation' | sort: 'url' %}
+  <div class="group">
+    <div class="group_title">Foundations</div>
+    <ul>
+      {% for doc in foundations %}
+        <li>
+          <a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% assign charts = site.docs | where: 'type', 'charts' | sort: 'url' %}
+  <div class="group">
+    <div class="group_title">Charts</div>
+    <ul>{% for doc in charts %}
+      <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
+    {% endfor %}</ul>
+  </div>
+</div>

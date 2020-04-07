@@ -1,0 +1,148 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dd,
+p,
+figure,
+table,
+fieldset,
+hr {
+  margin-bottom: $base-pad;
+}
+
+.header {
+  margin-top: $margin_large;
+  margin-bottom: $margin;
+  font-family: $font-family-1;
+  font-weight: $font-weight-bold;
+}
+
+.headline,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: $headline-line-height;
+  color: $headline-font-color;
+  font-family: $font-family-2;
+  font-weight: $font-weight-bold;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: $typo_ostrich;
+  margin-bottom: $base-pad;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: $typo_eagle;
+}
+
+h2 {
+  margin-top: $margin_huge;
+  margin-bottom: $base-pad;
+}
+
+h3 {
+  margin: $base-pad 0;
+  font-size: $typo_crow;
+}
+
+h4 {
+  margin-bottom: $base-pad;
+  text-transform: uppercase;
+  color: $pink;
+}
+
+// Typography Settings
+.typo_ostrich {
+  font-size: $typo_ostrich;
+}
+.typo_albatros {
+  font-size: $typo_albatros;
+}
+.typo_eagle {
+  font-size: $typo_eagle;
+}
+.typo_hawk {
+  font-size: $typo_hawk;
+}
+.typo_crow {
+  font-size: $typo_crow;
+}
+.typo_sparrow {
+  font-size: $typo_sparrow;
+}
+.typo_hummingbird {
+  font-size: $typo_hummingbird;
+}
+
+.font-family-1 {
+  font-family: $font-family-1;
+}
+
+.font-family-2 {
+  font-family: $font-family-2;
+}
+
+ul,
+ol,
+dd,
+p,
+figure,
+table,
+fieldset,
+hr {
+  margin: 0;
+  margin-bottom: $margin;
+}
+
+blockquote {
+  margin: $margin_large 0;
+  padding-left: 2rem;
+
+  .icon:first-child {
+    font-size: $margin_large;
+    line-height: 1;
+    margin-left: -2rem;
+  }
+}
+
+// Mobile sizes
+@media only screen and (max-width: $large_screen) {
+  .typo_ostrich {
+    font-size: $m_typo_ostrich;
+  }
+  .typo_albatros {
+    font-size: $m_typo_albatros;
+  }
+  .typo_eagle {
+    font-size: $m_typo_eagle;
+  }
+  .typo_hawk {
+    font-size: $m_typo_hawk;
+  }
+
+  h1 {
+    font-size: $m_typo_ostrich;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: $m_typo_eagle;
+  }
+}

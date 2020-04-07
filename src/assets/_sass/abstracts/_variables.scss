@@ -1,0 +1,100 @@
+// Devices
+$extended_screen: 1400px;
+$large_screen: 1200px;
+$medium_screen: 800px;
+$small_screen: 480px;
+
+// Navigation Rails
+$left_rail: 300px;
+$right_rail: 300px;
+
+// Type Systems
+$font-family-1: 'Open Sans', sans-serif;
+$font-family-2: 'Cardo', serif;
+$font-family-3: Menlo, Consolas, 'Courier New', Courier, 'Liberation Mono',
+  monospace;
+
+$base-font-family: $font-family-1;
+$icon: 'Material Icons';
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Font Size
+$typo_lion: 2.6rem;
+$typo_panther: 1.8rem;
+$typo_leopard: 1.3rem;
+$typo_cat: 1rem;
+$typo_kitten: 0.8rem;
+$typo_ostrich: 3rem;
+$typo_albatros: 2.2rem;
+$typo_eagle: 1.8rem;
+$typo_hawk: 1.5rem;
+$typo_crow: 1.25rem;
+$typo_sparrow: 0.85rem;
+$typo_hummingbird: 0.875rem;
+
+$base-font-size: 16px;
+$base-line-height: 1.6;
+$heading-line-height: 1.25;
+
+// Mobile Font Sizes
+$m_typo_ostrich: 2rem;
+$m_typo_albatros: 1.8rem;
+$m_typo_eagle: 1.4rem;
+$m_typo_hawk: 1.25rem;
+
+// Primary Colors
+$white: #ffffff;
+$black: #222222;
+$pink: hotpink;
+
+// Accent Colors
+$blue: lightskyblue;
+$green: lightseagreen;
+
+// Brand Colors
+$white: #fff;
+$smoke: whitesmoke;
+$red: orangered;
+$blue: #006fda;
+$green: #16b491;
+$amber: orange;
+$grey: #cccccc;
+
+// Code Color
+$code-color: #0a0a0a;
+$code-font-color: #ffffff;
+
+// Borders
+$base-border-radius: 1rem;
+$base-border: 1px solid $smoke;
+
+// Base Fonts
+$base-font-color: #222222;
+
+// Headline Fonts
+$headline-line-height: 1.3;
+$headline-font-color: $base-font-color;
+$heading-font-color: $base-font-color;
+$subheading-font-color: $base-font-color;
+
+// Margins
+$margin: 1rem;
+$margin_small: 0.5rem;
+$margin_large: 1.5rem;
+$margin_huge: 3rem;
+$margin_massive: 4.5rem;
+
+// Mobile Margins
+$m_margin_huge: 1.5rem;
+$m_margin_massive: 3rem;
+
+// Padding
+$large-pad: 1.5rem;
+$base-pad: 1rem;
+$small-pad: $large-pad / 2; //0.75rem
+
+// Animations
+$base-duration: 0.2s;
+$base-timing: ease;
