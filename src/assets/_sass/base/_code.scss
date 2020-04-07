@@ -8,26 +8,43 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
 pre {
   margin: 0;
   padding: $margin;
 }
+
 figure {
   max-width: 100%;
 }
+
 .highlighter-rouge {
   padding: 0.1rem 0.2rem;
   background: transparentize($code-color, 0.9);
   color: $heading-font-color;
 }
+
 .highlight {
-  margin: $margin_huge 0;
+  position: relative;
+  margin: $margin_massive 0 $margin_huge 0;
 
   @media only screen and (max-width: $large_screen) {
     margin: $m_margin_huge 0;
   }
 
+  code {
+    display: block;
+    max-height: 500px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
   code:before {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transform: translateY(-100%);
+    width: calc(100% - 2rem);
     content: attr(data-lang);
     display: block;
     background: $blue;
@@ -41,6 +58,22 @@ figure {
     font-family: $base-font-family;
     text-transform: uppercase;
     font-size: $base-font-size - 2px;
+  }
+
+  .copy-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    color: $white;
+    transform: translateY(-100%);
+    cursor: pointer;
+
+    .icon {
+      font-size: $typo_crow;
+      line-height: $typo_albatros;
+    }
   }
 }
 

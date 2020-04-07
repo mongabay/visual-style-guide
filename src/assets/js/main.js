@@ -55,6 +55,33 @@ function sidebarButton() {
   });
 }
 
+function copyCode() {
+  $('.highlight').each(function() {
+    var $item = $(this);
+
+    var button = $('<button/>', { type: 'button', class: 'copy-button', title: 'Copy'  });
+    button.click(function () {
+      var code = $item.find('code').get(0);
+      var range = document.createRange();
+      range.selectNode(code);
+      window.getSelection().addRange(range);
+
+      try {
+        document.execCommand('copy');
+      } catch(err) {
+        alert('Oops, unable to copy');
+      }
+
+      window.getSelection().removeAllRanges();
+    });
+
+    var i = $('<i />', { text: 'content_copy', class: 'icon' })
+    i.appendTo(button);
+
+    $item.append(button);
+  });
+}
+
 //Functions that run when all HTML is loaded
 $(document).ready(function() {
   contentList();
@@ -62,6 +89,7 @@ $(document).ready(function() {
   collapseH();
   TargetExt();
   sidebarButton();
+  copyCode();
 });
 
 
