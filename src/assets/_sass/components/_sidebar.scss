@@ -1,7 +1,7 @@
 .sg_sidebar {
-  color: $white;
-  background: $black;
+  background: $white;
   overflow-y: scroll;
+  border-right: $base-border;
   -webkit-overflow-scrolling: touch;
 
   &::-webkit-scrollbar {
@@ -45,7 +45,7 @@
 
     &:hover,
     &.active {
-      color: $white;
+      color: $black;
     }
   }
 
@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     padding: $margin_large $margin;
-    color: $white;
+    color: $black;
     text-transform: capitalize;
     font-size: $typo_sparrow;
     font-weight: 700;
