@@ -13,6 +13,8 @@ editorial gravitas and an humanistic touch to the verbal identity.
 <p class="typo_ostrich font-family-2"><i>Cardo italic</i></p>
 <p class="typo_ostrich font-family-2"><b>Cardo bold</b></p>
 
+<a href="https://fonts.google.com/specimen/Open+Sans" target="_blank" rel="noopener noreferrer"><i class="icon">file_download</i> Download the font</a>
+
 <br />
 
 ## Text typeface
@@ -23,3 +25,5 @@ Cardo, Open Sans adds a friendly and welcoming appearence. This fonts offers a g
 <p class="typo_ostrich font-family-1">Open Sans regular</p>
 <p class="typo_ostrich font-family-1"><i>Open Sans italic</i></p>
 <p class="typo_ostrich font-family-1"><b>Open Sans bold</b></p>
+
+<a href="https://fonts.google.com/specimen/Cardo" target="_blank" rel="noopener noreferrer"><i class="icon">file_download</i> Download the font</a>
