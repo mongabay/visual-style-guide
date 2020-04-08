@@ -5,7 +5,7 @@ colors:
   theme:
     - name: Brand
       description: The highlights
-      hex: '#729900'
+      hex: '#669900'
     - name: Forest
       description: The actions
       hex: '#03755F'
@@ -16,7 +16,7 @@ colors:
       description: The words
       hex: '#222222'
   accessibility:
-    - hex: '#729900'
+    - hex: '#669900'
       text: White on Brand green
       text_color: '#FFFFFF'
     - hex: '#03755F'
