@@ -22,8 +22,7 @@
     text-transform: capitalize;
     display: block;
     color: $grey;
-    font-size: $typo_sparrow;
-    font-weight: 700;
+    font-size: $typo_cat;
     text-decoration: none;
     padding: $margin_small/3 0;
     padding: $margin;
@@ -39,6 +38,11 @@
       margin-right: $margin_small;
       margin-left: -$margin_large;
     }
+
+    &.active {
+      font-weight: $font-weight-bold;
+    }
+
     &.active:before {
       content: 'arrow_forward';
     }
@@ -81,7 +85,8 @@
     padding-bottom: $margin;
 
     .group_title {
-      font-size: $typo_hummingbird;
+      font-family: $font-family-2;
+      font-size: $typo_hawk;
       font-weight: $font-weight-bold;
       padding: $margin;
       padding-bottom: $margin_small;
@@ -92,7 +97,6 @@
 
       a {
         padding: $margin_small/2 $margin;
-        font-weight: $font-weight-bold;
       }
     }
   }
