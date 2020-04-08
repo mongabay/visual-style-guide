@@ -25,7 +25,7 @@ Once you've familiarized with Vega, have a look at the [examples](https://vega.g
 
 Vega's [online editor](https://vega.github.io/editor/) is the recommended way to build charts as it doesn't require you to install anything. Plus, it contains a lot of examples for you to start with.
 
-![Vega's online editor](/src/assets/images/charts/01-introduction-editor.png)
+![Vega's online editor]({{ site.baseurl }}/src/assets/images/charts/01-introduction-editor.png)
 
 The interface is divided into 3 main sections:
 - **Toolbar**: located at the top

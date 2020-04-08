@@ -10,7 +10,7 @@ This repository contains Mongabay's visual style guide.
 2. Clone this repository: `git clone https://github.com/mongabay/visual-style-guide.git`
 3. Navigate to the folder: `cd visual-style-guide`
 4. Run the server: `jekyll serve`
-5. Open http://127.0.0.1:4000 in your browser
+5. Open http://127.0.0.1:4000/visual-style-guide/ in your browser
 
 ### Editing the content
 

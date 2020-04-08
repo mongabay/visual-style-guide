@@ -9,9 +9,9 @@ info:
 A white canvas to drop layers on it, with a visual division between sea and land without adding a new background.
 
 <div class="c-basemap-layer">
-	<img src="/src/assets/images/foundations/07-basemap-context-1.png" alt="Shadow" />
+	<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-context-1.png" alt="Shadow" />
 	<div>
-		<img src="/src/assets/images/foundations/07-basemap-map-1.jpg" alt="Shadow layer" />
+		<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-map-1.jpg" alt="Shadow layer" />
 		Meditarranean sea
 	</div>
 </div>
@@ -21,9 +21,9 @@ A white canvas to drop layers on it, with a visual division between sea and land
 Physical context based on elevation.
 
 <div class="c-basemap-layer">
-	<img src="/src/assets/images/foundations/07-basemap-context-2.png" alt="Hillshade" />
+	<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-context-2.png" alt="Hillshade" />
 	<div>
-		<img src="/src/assets/images/foundations/07-basemap-map-2.jpg" alt="Hillshade layer" />
+		<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-map-2.jpg" alt="Hillshade layer" />
 		Tibetan plateau
 	</div>
 </div>
@@ -33,9 +33,9 @@ Physical context based on elevation.
 Solid line for countries, dashed line for sub-national division.
 
 <div class="c-basemap-layer">
-	<img src="/src/assets/images/foundations/07-basemap-context-3.png" alt="Admin boundaries" />
+	<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-context-3.png" alt="Admin boundaries" />
 	<div>
-		<img src="/src/assets/images/foundations/07-basemap-map-3.jpg" alt="Admin boundaries layer" />
+		<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-map-3.jpg" alt="Admin boundaries layer" />
 		Administrative divisions of India
 	</div>
 </div>
@@ -45,9 +45,9 @@ Solid line for countries, dashed line for sub-national division.
 Physical context based on elevation underwater (bathymetry).
 
 <div class="c-basemap-layer">
-	<img src="/src/assets/images/foundations/07-basemap-context-4.png" alt="Water" />
+	<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-context-4.png" alt="Water" />
 	<div>
-		<img src="/src/assets/images/foundations/07-basemap-map-4.jpg" alt="Water layer" />
+		<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-map-4.jpg" alt="Water layer" />
 		Indonesia's surroundings
 	</div>
 </div>
@@ -57,9 +57,9 @@ Physical context based on elevation underwater (bathymetry).
 The geographic coordinate system for placing every location on Earth.
 
 <div class="c-basemap-layer">
-	<img src="/src/assets/images/foundations/07-basemap-context-5.png" alt="Grid" />
+	<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-context-5.png" alt="Grid" />
 	<div>
-		<img src="/src/assets/images/foundations/07-basemap-map-5.jpg" alt="Grid layer" />
+		<img src="{{ site.baseurl }}/src/assets/images/foundations/07-basemap-map-5.jpg" alt="Grid layer" />
 		Hawaiian islands
 	</div>
 </div>

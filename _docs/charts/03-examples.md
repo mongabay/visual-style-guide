@@ -6,7 +6,7 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Simple bar chart
 
-![Simple bar chart](/src/assets/images/charts/03-examples-chart-1.svg)
+![Simple bar chart]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-1.svg)
 
 {% highlight json %}
 {
@@ -101,7 +101,7 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Stacked bar chart
 
-![Stacked bar chart](/src/assets/images/charts/03-examples-chart-2.svg)
+![Stacked bar chart]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-2.svg)
 
 {% highlight json %}
 {
@@ -182,7 +182,7 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Pyramid bar chart
 
-![Pyramid bar chart](/src/assets/images/charts/03-examples-chart-3.svg)
+![Pyramid bar chart]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-3.svg)
 
 {% highlight json %}
 {
@@ -350,7 +350,7 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Line chart
 
-![Line chart](/src/assets/images/charts/03-examples-chart-4.svg)
+![Line chart]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-4.svg)
 
 {% highlight json %}
 {
@@ -463,7 +463,7 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Pie chart
 
-![Pie chart](/src/assets/images/charts/03-examples-chart-5.svg)
+![Pie chart]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-5.svg)
 
 {% highlight json %}
 {
@@ -557,7 +557,7 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Scatter plot (with legend at the bottom)
 
-![Scatter plot (with legend at the bottom)](/src/assets/images/charts/03-examples-chart-6.svg)
+![Scatter plot (with legend at the bottom)]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-6.svg)
 
 {% highlight json %}
 {
@@ -660,13 +660,13 @@ info: The example below are based on Vega's ones but have been slighly modify so
 
 ## Scatter plot (with legend at the side)
 
-![Scatter plot (with legend at the side)](/src/assets/images/charts/03-examples-chart-7.svg)
+![Scatter plot (with legend at the side)]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-7.svg)
 
 The code is the same as the one of the previous example because only the config changed.
 
 ## Heatmap
 
-![Heatmap](/src/assets/images/charts/03-examples-chart-8.svg)
+![Heatmap]({{ site.baseurl }}/src/assets/images/charts/03-examples-chart-8.svg)
 
 {% highlight json %}
 {

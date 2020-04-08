@@ -156,7 +156,7 @@ For photography, be sure to darken the photo as needed to ensure legibility.
 <ul class="c-color-card-sets">
 	{% for color in page.colors.accessibility %}
 	<li class="col-6">
-		<div class="color" style="background-color: {{color.hex}}; background-image: url('{{color.image}}'); color: {{color.text_color}};">
+		<div class="color" style="background-color: {{color.hex}}; background-image: url('{{ site.baseurl }}{{color.image}}'); color: {{color.text_color}};">
 			{{color.text}}
 		</div>
 	</li>

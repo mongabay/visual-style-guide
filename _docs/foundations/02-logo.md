@@ -10,4 +10,4 @@ and represents a symbol of nature.
 
 The following examples are intended to show how to use the logo across a variety of situations.
 
-![Different Mongabay logos](/src/assets/images/foundations/02-logo-image.png)
+![Different Mongabay logos]({{ site.baseurl }}/src/assets/images/foundations/02-logo-image.png)

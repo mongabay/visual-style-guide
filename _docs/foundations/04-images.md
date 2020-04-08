@@ -13,7 +13,7 @@ be easy to recognize in contrast with the environment.
 **Watermarks** – Images taken by Mongabay staffshould all have a “MONGABAY.COM” watermark in the
 bottom left corner.
 
-![Image 1](/src/assets/images/foundations/04-images-image-1.jpg)
-![Image 2](/src/assets/images/foundations/04-images-image-2.jpg)
-![Image 3](/src/assets/images/foundations/04-images-image-3.jpg)
-![Image 4](/src/assets/images/foundations/04-images-image-4.jpg)
+![Image 1]({{ site.baseurl }}/src/assets/images/foundations/04-images-image-1.jpg)
+![Image 2]({{ site.baseurl }}/src/assets/images/foundations/04-images-image-2.jpg)
+![Image 3]({{ site.baseurl }}/src/assets/images/foundations/04-images-image-3.jpg)
+![Image 4]({{ site.baseurl }}/src/assets/images/foundations/04-images-image-4.jpg)
