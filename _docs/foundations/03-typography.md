@@ -1,6 +1,5 @@
 ---
 title: Typography
-nav: true
 info: The Mongabay typography choices offer an approachable, simple and modern aesthetic to the written communication content.
 ---
 

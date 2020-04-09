@@ -1,6 +1,5 @@
 ---
 title: Colors
-nav: true
 colors:
   theme:
     - name: Brand

@@ -2,7 +2,6 @@
 title: Overview 
 layout: doc
 info: Welcome to the Mongabay's visual style guide.
-nav: false
 ---
 
 This site contains Mongabay's visual style guide.

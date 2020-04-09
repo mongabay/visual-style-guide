@@ -1,6 +1,5 @@
 ---
 title: Chart styles
-nav: false
 info:
 ---
 

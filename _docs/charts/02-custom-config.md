@@ -1,6 +1,5 @@
 ---
 title: Custom config
-nav: true
 info:
 ---
 

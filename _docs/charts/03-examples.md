@@ -1,6 +1,5 @@
 ---
 title: Examples
-nav: true
 info: The example below are based on Vega's ones but have been slighly modify so they don't override the styles defined in the custom config.
 ---
 

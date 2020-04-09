@@ -1,6 +1,5 @@
 ---
 title: Basemap
-nav: true
 info:
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Images
-nav: false
 info:
 ---
 

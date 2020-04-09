@@ -1,6 +1,5 @@
 ---
 title: Logo
-nav: false
 info:
 ---
 

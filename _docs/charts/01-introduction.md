@@ -1,6 +1,5 @@
 ---
 title: Introduction
-nav: true
 info: This part of the guide is dedicated to charts created with the Vega library.
 ---
 
