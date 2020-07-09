@@ -14,7 +14,7 @@ port: 4000
 
 ## Output
 siteurl: ## Optional
-baseurl: /visual-style-guide
+baseurl: /
 destination: build ## Output folder
 
 ###################################
