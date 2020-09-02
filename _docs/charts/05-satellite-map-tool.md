@@ -4,7 +4,7 @@ title: Satellite map tool
 
 ## What is the satellite map tool
 
-The satellite map tool lets you create images of maps using a wide set of basemaps, contextual layers and data layers.
+The [satellite map tool](https://maps.mongabay.com/) lets you create images of maps using a wide set of basemaps, contextual layers and data layers.
 
 ![Satellite map tool](https://raw.githubusercontent.com/mongabay/satellite-stamp/master/docs/assets/hero.png)
 

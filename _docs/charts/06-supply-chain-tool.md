@@ -4,7 +4,7 @@ title: Supply chain tool
 
 ## What is the supply chain tool
 
-The supply chain tool lets you create images of maps with flows representing the exchange of a variety of commodities across the world.
+The [supply chain tool](https://chains.mongabay.com/) lets you create images of maps with flows representing the exchange of a variety of commodities across the world.
 
 ![Supply chain tool](https://raw.githubusercontent.com/mongabay/supply-chain-chart/master/docs/assets/hero.png)
 
