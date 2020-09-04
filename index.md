@@ -4,7 +4,7 @@ layout: doc
 info: Welcome to the Mongabay's visual style guide.
 ---
 
-This site contains Mongabay's visual style guide.
+This visual style guide is intended to provide an introduction for journalists working with Mongabay to the design principles, templates, and tools used in our global newsroom to harness the illustrative potential of data in storytelling that inspires the public to recognize the links between society and the environment.
 
 ## Contributing
 
